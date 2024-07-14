@@ -4,7 +4,7 @@ import aboutImage from "../../assets/me-about.jpg";
 
 const About = () => {
   return (
-    <div className='bg-secondary-1 max-w-screen-2xl relative mx-auto flex flex-col gap-4 text-center justify-center text-tertiary-1 md:p-20 px-8 py-20'>
+    <div className='bg-transparent dark:bg-secondary-1 text-secondary-1 dark:text-tertiary-1  max-w-screen-2xl relative mx-auto flex flex-col gap-4 text-center justify-center md:p-20 px-8 py-20'>
       <h5 className='font-display text-sm font-light'> BIOGRAPHY </h5>
       <h2 className='font-bold mb-2 text-2xl'> WHO AM I? </h2>
 
