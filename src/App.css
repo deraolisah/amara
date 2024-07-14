@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  border: 0 none;
+  outline: 0 none;
+  list-style: none;
+  text-decoration: none;
+}
+img{
+  object-fit: cover;
+}
