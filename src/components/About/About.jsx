@@ -1,4 +1,5 @@
 import React from 'react';
+import { RiReactjsFill } from "react-icons/ri";
 import { PiAperture, PiBasket, PiBasketball, PiBezierCurve, PiCode, PiFilmSlate, PiGameController } from "react-icons/pi";
 import aboutImage from "../../assets/me-about.jpg";
 
@@ -19,7 +20,8 @@ const About = () => {
           </p>
           <div class="grid lg:grid-cols-3 grid-cols-2 mt-2 gap-2 flex-wrap text-secondary-2">
                         <span className='flex flex-col gap-2 items-center border border-primary-1 bg-transparent text-center py-5 px-0'>
-                          <PiCode className='text-3xl' />
+                        <RiReactjsFill className='text-3xl' />
+                          {/* <PiCode className='text-3xl' /> */}
                           <p> M.E.R.N Stack </p>
                         </span>
                         <span className='flex flex-col gap-2 items-center border border-primary-1 bg-transparent text-center py-5 px-0'>

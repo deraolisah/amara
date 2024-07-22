@@ -7,11 +7,21 @@
   list-style: none;
   text-decoration: none;
 }
+
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 0px;
+  /* width: 18px; */
+}
+::-webkit-scrollbar-thumb{
+  background-color: transparent;
+}
+
 body{
   background-image: url("../bg-texture.png");
   /* background-color: #101010; */
   background-repeat: repeat;
-  background-size: 4px;
+  background-size: 2.8px;
   font-weight: 400;
   font-weight: 500;
   /* backface-visibility: 0.5; */

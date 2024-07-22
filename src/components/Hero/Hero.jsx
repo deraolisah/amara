@@ -23,7 +23,7 @@ const Hero = () => {
 
       <span className='md:ml-20 mt-4'>
         <a className='py-2 px-5 bg-transparent border border-primary-1 text-sm font-light hover:bg-secondary-2 hover:border-secondary-2 hover:text-tertiary-1' href=''>View My Works</a>
-        <a className='py-2 px-5 border border-primary-1 bg-primary-1 text-sm font-light hover:bg-primary-2 hover:border-primary-2 hover:text-tertiary-1' href=''>Download CV</a>
+        <a className='py-2 px-5 text-tertiary-1 border border-primary-1 bg-primary-1 text-sm font-light hover:bg-primary-2 hover:border-primary-2 hover:text-tertiary-1' href=''>Download CV</a>
       </span>
     </div>
   )
